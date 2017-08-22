@@ -1,0 +1,4 @@
+<div class="row">
+  <div class="col-xs-5"><app-recipe-list (emitRecipe)="selectedRecipe=$event"></app-recipe-list></div>
+  <div class="col-xs-7"><app-recipe-details [selectedRecipe]="selectedRecipe"></app-recipe-details></div>
+</div>
